@@ -99,6 +99,7 @@ body.template-dark {
     z-index: 100;
 }
 
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -130,10 +131,12 @@ body.template-dark {
     font-size: 3rem;
     color: var(--primary-color);
     cursor: pointer;
+    position: relative;
+    display: none;
 }
 
 .nav-list {
-    display: none;
+    display: block;
     align-items: center;
     justify-content: center;
     gap: 3rem;
@@ -174,7 +177,10 @@ body.template-dark {
     .nav-list {
         display: flex;
     }
+
 }
+    
+
 
 /* HERO BANNER */
 
@@ -633,3 +639,7 @@ body.template-dark {
         background-color: var(--instagram-color);
     }
 }
+
+
+      /* js */
+     
