@@ -648,7 +648,7 @@ body.template-dark {
       /* js */
      @media screen and (max-width:767px) {
         
-        .nav-list {
+        .nav-list.active{
             position: absolute;
             z-index: 100;
             display: flex;
@@ -656,10 +656,8 @@ body.template-dark {
             left: 0;
             width: 100vw;
             gap: 0rem;
-            top : 72px
-
-            /* top:-100%;
-            transition: transform 0.5s; */
+            top : 72px;
+            transition: transform 1.0s; 
                 
 
         }
