@@ -1,10 +1,8 @@
-const burGer = document.querySelector("#nav-burger");
-const burgerStyle = document.querySelector("#nav-list")
-
-burgerStyle.addEventListener("click", () => {
-    burgerStyle.classList.toggle('active')
-    burGer.classList.toggle('active')
+const burGer = document.querySelector(".nav-burger");
 
 
-
+burgerStyle.addEventListener("click", function (event)  {
+    this.classList.toggle('active')
+    nav_ul.classList.toggle("slide")
 })
+
