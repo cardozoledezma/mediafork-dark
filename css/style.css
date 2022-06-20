@@ -77,6 +77,9 @@ body.template-dark {
     color: #fff;
     background-color: var(--main-bg);
 }
+body.template-dark{
+    
+}
 
 .container {
     margin: 0 auto;
@@ -684,8 +687,182 @@ body.template-dark {
              
              
         }
-        
-             
-        
+         /* modal */
+    
         
      }
+     .btn1{
+        cursor: pointer;
+        display: block;
+        
+        
+    }
+    .btn2{
+        cursor: pointer;
+        display: block;
+    }
+    .btn3{
+        cursor: pointer;
+        display: block;
+    }
+    .btn4{
+        cursor: pointer;
+        display: block;
+    }
+    .modal-container1.active{
+        position: fixed;
+        top: 0%;
+        width: 70vw;
+        height: 70vw;
+        z-index: 300;
+        left: 15%; 
+             
+     }
+    
+     .modal-container2.active{
+         position: fixed;
+         top: 0%;
+         width: 70vw;
+         height: 70vw;
+         z-index: 300;
+         left: 15%;      
+      }
+    
+     .modal-container3.active{
+         position: fixed;
+         top: 0%;
+         width: 70vw;
+         height: 70vw;
+         z-index: 300;
+         left: 15%;      
+      }
+    
+     .modal-container4.active{
+         position: fixed;
+         top: 0%;
+         width: 70vw;
+         height: 70vw;
+         z-index: 300;
+         left: 15%;      
+    
+     }
+     .text1{
+        display: none;
+        }  
+     .text2{
+        display: none;
+        }  
+     .text3{
+        display: none;
+        }  
+     .text4{
+        display: none;
+        } 
+  
+    .text1.active{
+       display: contents;
+    }
+    .text2.active{
+       display: contents;
+    }
+    .text3.active{
+       display: contents;
+    }
+    .text4.active{
+       display: contents;
+    }
+  
+
+
+
+    
+     @media screen and (max-width:767px) {
+        .btn1{
+            cursor: pointer;
+            display: block;
+            padding: 10px 14px;
+            margin: 100px auto;
+            min-width: 150px;
+        }
+        .btn2{
+            cursor: pointer;
+            display: block;
+            padding: 10px 14px;
+            margin: 100px auto;
+            min-width: 150px;
+        }
+        .btn3{
+            cursor: pointer;
+            display: block;
+            padding: 10px 14px;
+            margin: 100px auto;
+            min-width: 150px;
+        }
+        .btn4{
+            cursor: pointer;
+            display: block;
+            padding: 10px 14px;
+            margin: 100px auto;
+            min-width: 150px;
+        }
+        
+     
+
+        .modal-container1.active{
+           position: fixed;
+           top: 0%;
+           width: 70vw;
+           height: 70vw;
+           z-index: 300;
+           left: 15%;      
+        }
+       
+        .modal-container2.active{
+            position: fixed;
+            top: 0%;
+            width: 70vw;
+            height: 70vw;
+            z-index: 300;
+            left: 15%;      
+         }
+       
+        .modal-container3.active{
+            position: fixed;
+            top: 0%;
+            width: 70vw;
+            height: 70vw;
+            z-index: 300;
+            left: 15%;      
+         }
+       
+        .modal-container4.active{
+            position: fixed;
+            top: 0%;
+            width: 70vw;
+            height: 70vw;
+            z-index: 300;
+            left: 15%;      
+       
+        }
+       
+        .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #333333d3;
+        
+
+     }
+     #modal{
+        width: 95%;
+        max-width: 500px;
+        min-width: 300px;
+        padding: 30px;
+        background: #fff;
+        border-radius: 5px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    }
